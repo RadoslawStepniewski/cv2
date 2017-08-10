@@ -13,6 +13,7 @@ header{
 }
 .logo{
     width: 1170px;
+    margin: 0 auto
 }
 .name{
     color: #ffffff;
@@ -29,4 +30,9 @@ header{
 }
 .clear{
     clear: both;
+}
+#wrapper{
+    max-width: 1170px;
+    margin: 0 auto;
+    height: 2000px;
 }
