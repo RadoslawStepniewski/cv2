@@ -13,6 +13,17 @@ header{
 .logo{
     width: 1170px;
 }
-.logo p{
+.name{
     color: #ffffff;
+    float: left;
+}
+.icon{
+    width: 10%;
+    background-color: blue;
+    height: 100px;
+    float: left;
+    margin: 2%;
+}
+.clear{
+    clear: both;
 }
