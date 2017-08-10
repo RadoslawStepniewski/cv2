@@ -8,6 +8,7 @@ body{
 header{
     position: fixed;
     width: 100%;
+    height: 100px;
     background-color: #CC0066;
 }
 .logo{
@@ -16,11 +17,13 @@ header{
 .name{
     color: #ffffff;
     float: left;
+    font-size: 2em;
+    margin-left: 5%;
 }
 .icon{
-    width: 10%;
+    width: 60px;
+    height: 60px;
     background-color: blue;
-    height: 100px;
     float: left;
     margin: 2%;
 }
