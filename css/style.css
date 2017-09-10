@@ -1,29 +1,17 @@
-body{
+*{
     margin: 0;
     padding: 0;
-    font-size: 15px;
-    box-sizing: border-box;
-
+}
+body{
+    background-color: #8c8c8c;
+    font-size: 12px;
 }
 header{
-    position: fixed;
-    width: 100%;
-    background-color: #CC0066;
+    background-color: #2e6da4;
 }
-.logo{
-    width: 1170px;
+.header h1{
+    font-size: 2em;
 }
-.name{
-    color: #ffffff;
-    float: left;
-}
-.icon{
-    width: 10%;
-    background-color: blue;
-    height: 100px;
-    float: left;
-    margin: 2%;
-}
-.clear{
-    clear: both;
+header h2{
+    font-size: 1.5em;
 }
