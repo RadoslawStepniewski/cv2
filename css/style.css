@@ -11,7 +11,7 @@ body{
 [class*="col-"] {
     float: left;
     padding: 15px;
-    border: 1px solid red;
+    border: 1px solid #2098D1;
 }
 .col-1{width: 8.33%;}
 .col-2{width: 16.66%;}
@@ -25,13 +25,13 @@ body{
 .col-10{width: 83.33%;}
 .col-11{width: 91.66%;}
 .col-12{width: 100%;}
-.container{
-    background-color: #008ED4;
+.container--header{
+    background-color: #2098D1;
     color: #ffffff;
     font-size: 1.3em;
     position: relative;
 }
-.container a{
+.container--header a{
     color: #ffffff;
     text-decoration: none;
     position: absolute;
@@ -40,7 +40,7 @@ body{
     transform: translate(-50%,-50%);
 }
 .logo--mark{
-    font-size: 4.1em;
+    font-size: 4.05em;
     text-align: center;
 
 
@@ -52,7 +52,7 @@ body{
 
 }
 .logo--text{
-    font-size: 0.6em;
+    font-size: 0.7em;
 }
 .nav--menu{
     position: absolute;
@@ -63,4 +63,19 @@ body{
 }
 .menu{
     position: relative;
+}
+main{
+    background-color: #2098D1;
+}
+.intro{
+    position: relative;
+    width: 100%;
+    text-align: center;
+    color: #ffffff;
+    font-size: 2em;
+
+}
+.intro--main--text{
+
+
 }
