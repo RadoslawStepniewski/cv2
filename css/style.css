@@ -121,10 +121,20 @@ main {
 }
 
 
-.cell {
+.cell{
     height: 33em;
     border: 2px solid darkred;
     display: flex;
     align-items: center;
     justify-content: center;
+    background-color: #ffff22;
+}
+.cell:nth-child(odd){
+    background-color: #000000;
+}
+footer{
+    background-color:#272727 ;
+}
+.footer--right{
+    text-align: center;
 }
