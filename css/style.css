@@ -122,19 +122,27 @@ main {
 
 
 .cell{
-    height: 33em;
+    height: 25em;
     border: 2px solid darkred;
     display: flex;
     align-items: center;
     justify-content: center;
     background-color: #ffff22;
+    color: #ffffff;
+    font-size: 2em;
+
 }
 .cell:nth-child(odd){
     background-color: #000000;
 }
-footer{
-    background-color:#272727 ;
+.main--about{
+    background-color: #ffffff;
 }
-.footer--right{
+.about--cell{
+    border: #ffffff solid 2px;
+}
+
+.right{
     text-align: center;
+    background-color:#272727 ;
 }
