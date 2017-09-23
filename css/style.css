@@ -120,8 +120,7 @@ main {
 
 }
 
-
-.cell{
+.cell {
     height: 25em;
     border: 2px solid darkred;
     display: flex;
@@ -132,17 +131,20 @@ main {
     font-size: 2em;
 
 }
-.cell:nth-child(odd){
+
+.cell:nth-child(odd) {
     background-color: #000000;
 }
-.main--about{
+
+.main--about {
     background-color: #ffffff;
 }
-.about--cell{
+
+.about--cell {
     border: #ffffff solid 2px;
 }
 
-.right{
+.right {
     text-align: center;
-    background-color:#272727 ;
+    background-color: #272727;
 }
