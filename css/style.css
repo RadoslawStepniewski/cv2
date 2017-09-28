@@ -112,6 +112,9 @@ body {
     transform: translate(-50%, -50%);
 
 }
+.nav--bars{
+    visibility: hidden;
+}
 
 .menu {
     position: relative;
@@ -194,6 +197,13 @@ main {
 
     [class*="col-"] {
         text-align: center;
+    }
+    .nav--menu{
+        visibility: hidden;
+    }
+    .nav--bars{
+        visibility: visible;
+        text-align: left;
     }
 
     .about--description {
