@@ -90,7 +90,8 @@ body {
     text-align: center;
     font-family: 'Roboto', sans-serif;
 }
-.logo--profession{
+
+.logo--profession {
     font-size: 2em;
     text-align: center;
     font-family: 'Roboto', sans-serif;
@@ -110,9 +111,9 @@ body {
     top: 50%;
     left: 66%;
     transform: translate(-50%, -50%);
-
 }
-.nav--bars{
+
+.nav--bars {
     visibility: hidden;
 }
 
@@ -131,7 +132,6 @@ main {
     color: #ffffff;
     font-size: 1.5em;
     margin: 15% auto 15% auto;
-
 }
 
 .cell {
@@ -143,7 +143,6 @@ main {
     background-color: #ffffff;
     color: #ffffff;
     font-size: 2em;
-
 }
 
 .cell:nth-child(odd) {
@@ -198,10 +197,12 @@ main {
     [class*="col-"] {
         text-align: center;
     }
-    .nav--menu{
+
+    .nav--menu {
         visibility: hidden;
     }
-    .nav--bars{
+
+    .nav--bars {
         visibility: visible;
         text-align: left;
         font-size: 2.5em;
@@ -210,34 +211,40 @@ main {
     .about--description {
         margin: 0 5%;
     }
-
 }
+
 @media (min-width: 768px) and (max-width: 992px) {
     [class*="col-"] {
         text-align: center;
     }
-    .col-4{
+
+    .col-4 {
         width: 50%;
     }
-    .social{
+
+    .social {
         width: 50%;
     }
-    .nine{
+
+    .nine {
         width: 100%;
     }
-    .about--description{
+
+    .about--description {
         margin: 0 2%;
     }
-    .menu{
+
+    .menu {
         width: 50%;
     }
 }
+
 @media (min-width: 992px) and (max-width: 1200px) {
-    .about--description{
+    .about--description {
         margin: 0 5%;
     }
-    .intro{
+
+    .intro {
         margin: 10% auto 10% auto;
     }
-
 }
