@@ -130,7 +130,7 @@ main {
     text-align: center;
     color: #ffffff;
     font-size: 1.5em;
-    margin: 10em auto 10em auto;
+    margin: 15% auto 15% auto;
 
 }
 
@@ -183,15 +183,15 @@ main {
 }
 
 @media (max-width: 768px) {
-    .col-1, .col-2 {
+    .col-3 {
         width: 100%;
     }
 
-    .col-3, .col-4 {
+    .col-4 {
         width: 100%;
     }
 
-    .col-5, .col-6 {
+    .col-6 {
         width: 100%;
     }
 
@@ -204,9 +204,40 @@ main {
     .nav--bars{
         visibility: visible;
         text-align: left;
+        font-size: 2.5em;
     }
 
     .about--description {
         margin: 0 5%;
     }
+
+}
+@media (min-width: 768px) and (max-width: 992px) {
+    [class*="col-"] {
+        text-align: center;
+    }
+    .col-4{
+        width: 50%;
+    }
+    .social{
+        width: 50%;
+    }
+    .nine{
+        width: 100%;
+    }
+    .about--description{
+        margin: 0 2%;
+    }
+    .menu{
+        width: 50%;
+    }
+}
+@media (min-width: 992px) and (max-width: 1200px) {
+    .about--description{
+        margin: 0 5%;
+    }
+    .intro{
+        margin: 10% auto 10% auto;
+    }
+
 }
