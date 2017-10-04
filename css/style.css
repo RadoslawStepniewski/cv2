@@ -11,8 +11,8 @@ body {
 }
 
 .wrapper {
-
     background-color: #2098D1;
+    margin: 0 5%;
 }
 
 [class*="col-"] {
@@ -115,6 +115,9 @@ body {
 
 .nav--bars {
     visibility: hidden;
+    position: absolute;
+    top: 16%;
+    left: 5%;
 }
 
 .menu {
@@ -124,7 +127,9 @@ body {
 main {
     background-color: #2098D1;
 }
-
+.main--portfolio{
+    width: 100%;
+}
 .intro {
     position: relative;
     width: 100%;
@@ -141,7 +146,7 @@ main {
     align-items: center;
     justify-content: center;
     background-color: #ffffff;
-    color: #ffffff;
+    color: #b80;
     font-size: 2em;
 }
 
@@ -233,7 +238,6 @@ main {
     .about--description {
         margin: 0 2%;
     }
-
     .menu {
         width: 50%;
     }
